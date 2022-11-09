@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--fontawesome Icon-->
+    <script src="./fontawesome-js/all.js"></script>
+
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--css-->
+    <link rel="stylesheet" href="main.css" />
+
+    <title>Ethiopioan advertisment</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!--direct child-->
+        <img src="./assets/images/logo.png" alt="" class="logo" />
+
+        <!--direct child-->
+        <nav>
+          <ul class="nav-list">
+            <li>
+              <a href="#" class="nav-link">place free ads</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">sign in</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">register</a>
+            </li>
+          </ul>
+        </nav>
+
+        <!--direct child-->
+        <span class="share-icon">
+          <i class="fas fa-share-alt"></i>
+        </span>
+
+        <!--direct child-->
+        <ul class="social-media-lists">
+          <li>
+            <a href="#">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fab fa-pinterest"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fab fa-google-plus-g"></i>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <i class="fab fa-youtube-square"></i>
+            </a>
+          </li>
+        </ul>
+
+        <!--direct child-->
+        <form action="#">
+          <div class="search-input">
+            <input type="search" name="search for" placeholder="Enter search" />
+
+            <select name="catagories">
+              <option value="All Catagories">All Catagories</option>
+
+              <option value="jobs">jobs</option>
+
+              <option value="All Catagories">All Catagories</option>
+
+              <option value="Merchandise">Merchandise</option>
+
+              <option value="Arts & entertainment">Arts & entertainment</option>
+
+              <option value="cars & vehicle">cars & vehicles</option>
+
+              <option value="food & Dining">food & Dining</option>
+            </select>
+          </div>
+
+          <div class="city-input">
+            <input
+              type="text"
+              name="city or ZipCode"
+              placeholder="Enter City or Zip Code"
+            />
+
+            <select name="distance">
+              <option value="All">All</option>
+
+              <option value="+5 Miles">+5 Miles</option>
+
+              <option value="+10 Miles">+10 Miles</option>
+
+              <option selected="" value="+25 Miles">+25 Miles</option>
+            </select>
+          </div>
+
+          <button type="submit" class="search-btn">
+            <i class="fas fa-search"></i>
+            Search
+          </button>
+        </form>
+      </header>
+    </div>
+
+    <!--js-->
+    <script src="script.js"></script>
+  </body>
+</html>
